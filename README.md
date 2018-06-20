@@ -1,3 +1,5 @@
+## <span style="color:red">This project is work in progress! No usable results yet...</span>
+
 # TensorFlow Model Serving in a Kafka Streams Application
 This project contains a demo to do model inference with Apache Kafka, Kafka Streams and a TensorFlow model deployed using [TensorFlow Serving](https://www.tensorflow.org/serving/) (leveraging [Google Cloud ML Engine](https://cloud.google.com/ml-engine/docs/tensorflow/deploying-models) in this example). The concepts are very similar for other ML frameworks and Cloud Providers, e.g. you could also use Apache MXNet and [AWS model server](https://github.com/awslabs/mxnet-model-server).
 
@@ -33,7 +35,6 @@ Things to do:
 I simply added an existing pretrained Image Recognition model built with TensorFlow (Inception V1). 
 
 I also created a new model for predictions of census using the "[ML Engine getting started guide](https://cloud.google.com/ml-engine/docs/tensorflow/getting-started-training-prediction)". The data for training is in 'data' folder.
-
 
 ### Step 2: Deploy model to Google ML Engine
 [Getting Started with Google ML Engine](https://cloud.google.com/ml-engine/docs/tensorflow/deploying-models)
