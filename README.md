@@ -32,6 +32,9 @@ Things to do:
 ### Step 1: Create a TensorFlow model and export it to 'SavedModel' format.
 I simply added an existing pretrained Image Recognition model built with TensorFlow (Inception V1). 
 
+I also created a new model for predictions of census using the "[ML Engine getting started guide](https://cloud.google.com/ml-engine/docs/tensorflow/getting-started-training-prediction)". The data for training is in 'data' folder.
+
+
 ### Step 2: Deploy model to Google ML Engine
 [Getting Started with Google ML Engine](https://cloud.google.com/ml-engine/docs/tensorflow/deploying-models)
 
