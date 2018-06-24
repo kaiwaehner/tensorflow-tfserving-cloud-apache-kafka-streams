@@ -16,6 +16,7 @@ However, it is not always a feasible approach. Sometimes it makes sense or is ne
 - Later migration to real streaming is also possible
 
 *Cons:*
+- Framework-specific Deployment (e.g. only TensorFlow models)
 - Coupling the availability, scalability, and latency/throughput of your Kafka Streams application with the SLAs of the RPC interface
 - Side-effects (e.g. in case of failure) not covered by Kafka processing (e.g. Exactly Once)
 - Worse latency as communication over internet required
