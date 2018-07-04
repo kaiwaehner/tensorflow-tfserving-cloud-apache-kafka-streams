@@ -1,10 +1,10 @@
-<span style="color:red">This project is work in progress! No usable results yet...</span>
+# This project is work in progress! No usable results yet...
 
-<span style="color:red">Please go to the Github project "[TensorFlow Serving + gRPC + Java + Kafka Streams](https://github.com/kaiwaehner/tensorflow-serving-java-grpc-kafka-streams)" to see a working example with TensorFlow Serving and Kafka Streams.</span>
-
-
+<span style="color:red">**Please go to the Github project "[TensorFlow Serving + gRPC + Java + Kafka Streams](https://github.com/kaiwaehner/tensorflow-serving-java-grpc-kafka-streams)" to see a working example with TensorFlow Serving and Kafka Streams.**</span>
 
 
+
+### NO WORKING CODE YET
 
 #### GCP Example: TensorFlow Model deployed to Google ML Engine for interence in Kafka Streams Application on Kubernetes 
 This project contains a demo to do model inference with Apache Kafka, Kafka Streams and a TensorFlow model deployed using [TensorFlow Serving](https://www.tensorflow.org/serving/) (leveraging [Google Cloud ML Engine](https://cloud.google.com/ml-engine/docs/tensorflow/deploying-models) in this example). The concepts are very similar for other ML frameworks and Cloud Providers, e.g. you could also use Apache MXNet and [AWS model server](https://github.com/awslabs/mxnet-model-server).
